@@ -25,7 +25,7 @@ module.exports = {
           Navigation: path.resolve(__dirname, "app/components/Nav.jsx"), 
           applicationStyles: path.resolve(__dirname, "app/styles/app.scss"),
         },
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx', '.scss']
     },
     module: {
         loaders: [
