@@ -10,12 +10,6 @@ var Main = props => {
                     {props.children}
                 </div>
             </div>
-            
-            {/*<div className="row">
-                <div className="columns medium-6 large-4 small-centered">
-                    {props.children}
-                </div>
-            </div>            */}
         </div>
     );
 };
