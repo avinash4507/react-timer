@@ -21,13 +21,14 @@ module.exports = {
     },
     resolve: {
         alias: {
-          Main: path.resolve(__dirname, "app/components/Main.jsx"), 
+          Main: path.resolve(__dirname, "app/components/Main.jsx"),
+          Navigation: path.resolve(__dirname, "app/components/Nav.jsx"), 
+          applicationStyles: path.resolve(__dirname, "app/styles/app.scss"),
           Timer: path.resolve(__dirname, "app/components/Timer.jsx"), 
           Countdown: path.resolve(__dirname, "app/components/Countdown.jsx"), 
           Clock: path.resolve(__dirname, "app/components/Clock.jsx"), 
-          CountdownForm: path.resolve(__dirname, "app/components/CountdownForm.jsx"), 
-          Navigation: path.resolve(__dirname, "app/components/Nav.jsx"), 
-          applicationStyles: path.resolve(__dirname, "app/styles/app.scss"),
+          CountdownForm: path.resolve(__dirname, "app/components/CountdownForm.jsx"),
+          Controls: path.resolve(__dirname, "app/components/Controls.jsx"),
         },
         extensions: ['.js', '.jsx', '.scss']
     },
